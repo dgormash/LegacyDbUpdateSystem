@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FileSystemManager
 {
-    public class Class1
+    public class FileManager
     {
+        private const string RegionCode = "75";
     }
 }
