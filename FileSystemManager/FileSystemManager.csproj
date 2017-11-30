@@ -44,6 +44,12 @@
     <Compile Include="Interfaces\IFileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\LegacyDbUpdateSystem.Core\LegacyDbUpdateSystem.Core.csproj">
+      <Project>{adabde48-c3d0-4c10-b331-e80a92d832b1}</Project>
+      <Name>LegacyDbUpdateSystem.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
