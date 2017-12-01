@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckStatus.cs" />
     <Compile Include="FileManager.cs" />
+    <Compile Include="Interfaces\IFtpArchiveStatusChecker.cs" />
+    <Compile Include="Interfaces\IFtpUploader.cs" />
+    <Compile Include="Interfaces\IArchiver.cs" />
+    <Compile Include="Interfaces\IFileDataWriter.cs" />
     <Compile Include="Interfaces\IFileManager.cs" />
+    <Compile Include="Interfaces\IFileNameAssembler.cs" />
+    <Compile Include="Interfaces\IMD5Calculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
