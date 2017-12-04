@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LegacyDbUpdateSystem.Core
 {
-    public class Class1
+    public class FileData
     {
+        public List<string> TextData { get; set; }
+        public char DBaseIdent { get; set; }
     }
 }
