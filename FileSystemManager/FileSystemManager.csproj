@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckStatus.cs" />
+    <Compile Include="Common\FileManagerInterfaces.cs" />
     <Compile Include="Common\NameAssemblerInfo.cs" />
     <Compile Include="FileManager.cs" />
     <Compile Include="Implementations\FileNameAssembler.cs" />
@@ -52,7 +53,6 @@
     <Compile Include="Interfaces\IFileNameAssembler.cs" />
     <Compile Include="Interfaces\IMD5Calculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Interfaces\SomeClassFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\LegacyDbUpdateSystem.Core\LegacyDbUpdateSystem.Core.csproj">

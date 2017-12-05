@@ -8,7 +8,12 @@ namespace FileSystemManager.Implementations
     {
         public string AssembleFileName(NameAssemblerInfo nameAssemblerInfo)
         {
-            if (nameAssemblerInfo.DBaseLetter == null || nameAssemblerInfo.SeqNumber == null)
+            if (nameAssemblerInfo == null)
+            {
+                throw new ArgumentException("FileNameAssebler: Параметр NameAssemblerInfo = null.");
+            }
+
+            if (string.IsNullOrWhiteSpace(nameAssemblerInfo.DBaseLetter) || string.IsNullOrWhiteSpace(nameAssemblerInfo.SeqNumber))
             {
                 throw new ArgumentException("FileNameAssembler: не задан идентификатор базы данных или порядковый номер файла.");
             }

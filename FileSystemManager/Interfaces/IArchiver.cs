@@ -1,6 +1,6 @@
 ﻿namespace FileSystemManager.Interfaces
 {
-    internal interface IArchiver
+    public interface IArchiver
     {
         string CreateArchive(string fileToPack);
     }

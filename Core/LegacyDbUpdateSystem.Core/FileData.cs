@@ -9,6 +9,6 @@ namespace LegacyDbUpdateSystem.Core
     public class FileData
     {
         public List<string> TextData { get; set; }
-        public char DBaseIdent { get; set; }
+        public string DBaseIdent { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace FileSystemManager.Interfaces
 {
-    internal interface IFtpUploader
+    public interface IFtpUploader
     {
         void UploadFile(string fileName);
     }

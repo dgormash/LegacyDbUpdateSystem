@@ -3,9 +3,9 @@ using Microsoft.SqlServer.Server;
 
 namespace FileSystemManager.Interfaces
 {
-    internal interface IFileDataWriter
+    public interface IFileDataWriter
     {
-        void WriteDataToFile(string fileName, List<string> data);
+        void WriteDataToFile( List<string> data, string fileName);
     }
 
 }
