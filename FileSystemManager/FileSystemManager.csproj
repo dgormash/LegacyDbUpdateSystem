@@ -44,6 +44,7 @@
     <Compile Include="Common\FileManagerInterfaces.cs" />
     <Compile Include="Common\NameAssemblerInfo.cs" />
     <Compile Include="FileManager.cs" />
+    <Compile Include="Implementations\FileDataWriter.cs" />
     <Compile Include="Implementations\FileNameAssembler.cs" />
     <Compile Include="Interfaces\IFtpArchiveStatusChecker.cs" />
     <Compile Include="Interfaces\IFtpUploader.cs" />
